@@ -1,10 +1,11 @@
 import "./App.css";
+import Navber from "./components/Navber";
 
 function App() {
   return (
-    <div>
-      <h1></h1>
-    </div>
+    <>
+      <Navber />
+    </>
   );
 }
 
