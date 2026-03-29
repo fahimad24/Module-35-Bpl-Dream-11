@@ -2,8 +2,7 @@ import { DollarSign } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-
-// const categories = ["all", "batsman", "all-rounder", "bowler", "wicketkeeper"];
+import { toast, Bounce } from "react-toastify";
 
 function formatPrice(value) {
   return `$${value.toLocaleString()}`;
@@ -15,7 +14,62 @@ function getCategoryLabel(category) {
   return category.charAt(0).toUpperCase() + category.slice(1);
 }
 
-const PlayerCard = ({ player }) => {
+const PlayerCard = ({
+  player,
+  setSelectedPlayers,
+  selectedPlayers,
+  claimFreeCoins,
+  setClaimFreeCoins,
+}) => {
+  const handleSelectPlayer = (price) => {
+    console.log("Selected player price:", price);
+    if (claimFreeCoins < price) {
+      toast.error("Not enough coins to select this player!", {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: false,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        transition: Bounce,
+      });
+      return;
+    }
+
+    // Check if the player is already selected
+    const isAlreadySelected = selectedPlayers.some((p) => p.id === player.id);
+    if (isAlreadySelected) {
+      toast.error("Player is already selected!", {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: false,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        transition: Bounce,
+      });
+      return;
+    }
+
+    setSelectedPlayers([...selectedPlayers, player]);
+    toast.success("Player added to selection!", {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: false,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      transition: Bounce,
+    });
+    setClaimFreeCoins(claimFreeCoins - price);
+  };
+
   return (
     <Card className="group overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl relative h-120 p-0">
       {/* Image Section */}
@@ -91,6 +145,7 @@ const PlayerCard = ({ player }) => {
           <Button
             size="sm"
             className="rounded-full px-4 bg-slate-900 text-white hover:bg-slate-800"
+            onClick={() => handleSelectPlayer(player.price)}
           >
             Choose Player
           </Button>
