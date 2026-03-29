@@ -1,22 +1,22 @@
-import React, { useState, use } from "react";
+import React, { useState, use, useMemo } from "react";
 import PlayerCard from "./PlayerCard";
 
-const playersData = () => {
-  return fetch("/player-data.json").then((res) => res.json());
-};
-
-const PlayerCards = () => {
+const PlayerCards = ({ playersPromise }) => {
   const [query, setQuery] = useState("");
 
-  const players = use(playersData);
+  const players = use(playersPromise);
 
-  //   const filtered = useMemo(() => {
-  //     return players.filter((p) =>
-  //       p.playerName.toLowerCase().includes(query.toLowerCase()),
-  //     );
-  //   }, [query]);
+  const filtered = useMemo(() => {
+    const playerList = Array.isArray(players)
+      ? players
+      : (players?.players ?? []);
+    const data = playerList.filter((p) =>
+      p.playerName.toLowerCase().includes(query.toLowerCase()),
+    );
+    return data;
+  }, [players, query]);
   return (
-    <section>
+    <section className="container mx-auto my-10">
       <div>
         <div className="flex items-center justify-between p-6 ">
           <h1>Available Players</h1>
@@ -25,7 +25,7 @@ const PlayerCards = () => {
             <button>Selected 0</button>
           </div>
         </div>
-        <div className="p-6 max-w-6xl mx-auto">
+        <div className="p-6">
           <input
             className="border p-2 w-full mb-6"
             placeholder="Search player..."
@@ -34,7 +34,7 @@ const PlayerCards = () => {
           />
 
           <div className="grid md:grid-cols-3 gap-6">
-            {players.map((p) => (
+            {filtered.map((p) => (
               <PlayerCard key={p.id} player={p} />
             ))}
           </div>

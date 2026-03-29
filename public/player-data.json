@@ -3,7 +3,7 @@
     {
       "id": 1,
       "playerName": "Virat Kohli",
-      "image": "/images/virat-kohli.png",
+      "image": "https://i.pinimg.com/736x/05/67/92/056792c336f138afb8b4d2137396a672.jpg",
       "country": "India",
       "countryFlag": "🇮🇳",
       "playerCategory": "batsman",
@@ -22,9 +22,9 @@
     {
       "id": 2,
       "playerName": "Ben Stokes",
-      "image": "/images/ben-stokes.png",
+      "image": "https://i.pinimg.com/736x/04/2d/67/042d674dd68e53a43cfa7eda7f129055.jpg",
       "country": "England",
-      "countryFlag": "🏴",
+      "countryFlag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "playerCategory": "all-rounder",
       "playingStyle": {
         "batting": "Left-Hand Bat",
@@ -41,7 +41,7 @@
     {
       "id": 3,
       "playerName": "Jasprit Bumrah",
-      "image": "/images/jasprit-bumrah.png",
+      "image": "https://i.pinimg.com/736x/a0/f0/ad/a0f0ad3aaee8bbfdc01b07559c135887.jpg",
       "country": "India",
       "countryFlag": "🇮🇳",
       "playerCategory": "bowler",
@@ -60,9 +60,9 @@
     {
       "id": 4,
       "playerName": "Jos Buttler",
-      "image": "/images/jos-buttler.png",
+      "image": "https://i.pinimg.com/736x/b8/70/53/b8705379e5116bcdd5c6567363d31865.jpg",
       "country": "England",
-      "countryFlag": "🏴",
+      "countryFlag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "playerCategory": "wicketkeeper",
       "playingStyle": {
         "batting": "Right-Hand Bat",
@@ -79,7 +79,7 @@
     {
       "id": 5,
       "playerName": "Shakib Al Hasan",
-      "image": "/images/shakib-al-hasan.png",
+      "image": "https://i.pinimg.com/736x/d9/69/08/d96908198d53d1cfcebdd33c10a3b189.jpg",
       "country": "Bangladesh",
       "countryFlag": "🇧🇩",
       "playerCategory": "all-rounder",
@@ -98,7 +98,7 @@
     {
       "id": 6,
       "playerName": "Babar Azam",
-      "image": "/images/babar-azam.png",
+      "image": "https://i.pinimg.com/736x/b8/21/ca/b821cab45b4fe1a154d1cbf0bbb75890.jpg",
       "country": "Pakistan",
       "countryFlag": "🇵🇰",
       "playerCategory": "batsman",
@@ -117,7 +117,7 @@
     {
       "id": 7,
       "playerName": "Glenn Maxwell",
-      "image": "/images/glenn-maxwell.png",
+      "image": "https://i.pinimg.com/736x/65/fb/27/65fb27a0c4da1cd43562812b7c5589ac.jpg",
       "country": "Australia",
       "countryFlag": "🇦🇺",
       "playerCategory": "all-rounder",
@@ -136,7 +136,7 @@
     {
       "id": 8,
       "playerName": "Mushfiqur Rahim",
-      "image": "/images/mushfiqur-rahim.png",
+      "image": "https://i.pinimg.com/736x/43/7d/2c/437d2c1657c95103957dda6bcd8a2d83.jpg",
       "country": "Bangladesh",
       "countryFlag": "🇧🇩",
       "playerCategory": "wicketkeeper",
@@ -155,7 +155,7 @@
     {
       "id": 9,
       "playerName": "Rohit Sharma",
-      "image": "/images/rohit-sharma.png",
+      "image": "https://i.pinimg.com/736x/5c/b1/52/5cb1523bc6a14884d9e4ec1bd99acd97.jpg",
       "country": "India",
       "countryFlag": "🇮🇳",
       "playerCategory": "batsman",
@@ -174,7 +174,7 @@
     {
       "id": 10,
       "playerName": "Trent Boult",
-      "image": "/images/trent-boult.png",
+      "image": "https://i.pinimg.com/736x/5c/98/17/5c9817d641c02b55f8deeed3288b066c.jpg",
       "country": "New Zealand",
       "countryFlag": "🇳🇿",
       "playerCategory": "bowler",
@@ -193,7 +193,7 @@
     {
       "id": 11,
       "playerName": "Kane Williamson",
-      "image": "/images/kane-williamson.png",
+      "image": "https://i.pinimg.com/736x/c9/3d/32/c93d32d1cb2b08d55fe859d9da8926d5.jpg",
       "country": "New Zealand",
       "countryFlag": "🇳🇿",
       "playerCategory": "batsman",
@@ -212,9 +212,9 @@
     {
       "id": 12,
       "playerName": "Moeen Ali",
-      "image": "/images/moeen-ali.png",
+      "image": "https://i.pinimg.com/736x/05/ac/e9/05ace9aa3b3e2f4927bfcc9cd40253a9.jpg",
       "country": "England",
-      "countryFlag": "🏴",
+      "countryFlag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "playerCategory": "all-rounder",
       "playingStyle": {
         "batting": "Left-Hand Bat",
