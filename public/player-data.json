@@ -1,0 +1,232 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "playerName": "Virat Kohli",
+      "image": "/images/virat-kohli.png",
+      "country": "India",
+      "countryFlag": "🇮🇳",
+      "playerCategory": "batsman",
+      "playingStyle": {
+        "batting": "Right-Hand Bat",
+        "bowling": "Right-Arm Medium"
+      },
+      "price": 1500000,
+      "currency": "USD",
+      "extraInformation": {
+        "role": "Top-order batsman",
+        "strength": "Chase master, consistency, cover drive",
+        "experience": "International veteran"
+      }
+    },
+    {
+      "id": 2,
+      "playerName": "Ben Stokes",
+      "image": "/images/ben-stokes.png",
+      "country": "England",
+      "countryFlag": "🏴",
+      "playerCategory": "all-rounder",
+      "playingStyle": {
+        "batting": "Left-Hand Bat",
+        "bowling": "Right-Arm Fast-Medium"
+      },
+      "price": 1600000,
+      "currency": "USD",
+      "extraInformation": {
+        "role": "Match-winning all-rounder",
+        "strength": "Big-match temperament, aggressive batting",
+        "experience": "Test captain"
+      }
+    },
+    {
+      "id": 3,
+      "playerName": "Jasprit Bumrah",
+      "image": "/images/jasprit-bumrah.png",
+      "country": "India",
+      "countryFlag": "🇮🇳",
+      "playerCategory": "bowler",
+      "playingStyle": {
+        "batting": "Right-Hand Bat",
+        "bowling": "Right-Arm Fast"
+      },
+      "price": 1400000,
+      "currency": "USD",
+      "extraInformation": {
+        "role": "Fast bowler",
+        "strength": "Yorkers, death overs, accuracy",
+        "experience": "Elite pace attack leader"
+      }
+    },
+    {
+      "id": 4,
+      "playerName": "Jos Buttler",
+      "image": "/images/jos-buttler.png",
+      "country": "England",
+      "countryFlag": "🏴",
+      "playerCategory": "wicketkeeper",
+      "playingStyle": {
+        "batting": "Right-Hand Bat",
+        "bowling": "N/A"
+      },
+      "price": 1300000,
+      "currency": "USD",
+      "extraInformation": {
+        "role": "Wicketkeeper-batsman",
+        "strength": "Power hitting, fast starts",
+        "experience": "White-ball specialist"
+      }
+    },
+    {
+      "id": 5,
+      "playerName": "Shakib Al Hasan",
+      "image": "/images/shakib-al-hasan.png",
+      "country": "Bangladesh",
+      "countryFlag": "🇧🇩",
+      "playerCategory": "all-rounder",
+      "playingStyle": {
+        "batting": "Left-Hand Bat",
+        "bowling": "Left-Arm Orthodox"
+      },
+      "price": 1200000,
+      "currency": "USD",
+      "extraInformation": {
+        "role": "Spin all-rounder",
+        "strength": "Balance with bat and ball",
+        "experience": "One of Bangladesh's greatest players"
+      }
+    },
+    {
+      "id": 6,
+      "playerName": "Babar Azam",
+      "image": "/images/babar-azam.png",
+      "country": "Pakistan",
+      "countryFlag": "🇵🇰",
+      "playerCategory": "batsman",
+      "playingStyle": {
+        "batting": "Right-Hand Bat",
+        "bowling": "Right-Arm Off Break"
+      },
+      "price": 1450000,
+      "currency": "USD",
+      "extraInformation": {
+        "role": "Top-order batsman",
+        "strength": "Elegant stroke play, timing, consistency",
+        "experience": "Pakistan batting mainstay"
+      }
+    },
+    {
+      "id": 7,
+      "playerName": "Glenn Maxwell",
+      "image": "/images/glenn-maxwell.png",
+      "country": "Australia",
+      "countryFlag": "🇦🇺",
+      "playerCategory": "all-rounder",
+      "playingStyle": {
+        "batting": "Right-Hand Bat",
+        "bowling": "Right-Arm Off Break"
+      },
+      "price": 1500000,
+      "currency": "USD",
+      "extraInformation": {
+        "role": "Batting all-rounder",
+        "strength": "Explosive hitting, innovative shots",
+        "experience": "Key limited-overs performer"
+      }
+    },
+    {
+      "id": 8,
+      "playerName": "Mushfiqur Rahim",
+      "image": "/images/mushfiqur-rahim.png",
+      "country": "Bangladesh",
+      "countryFlag": "🇧🇩",
+      "playerCategory": "wicketkeeper",
+      "playingStyle": {
+        "batting": "Right-Hand Bat",
+        "bowling": "N/A"
+      },
+      "price": 1000000,
+      "currency": "USD",
+      "extraInformation": {
+        "role": "Wicketkeeper-batsman",
+        "strength": "Experience, pressure handling",
+        "experience": "Long-time Bangladesh servant"
+      }
+    },
+    {
+      "id": 9,
+      "playerName": "Rohit Sharma",
+      "image": "/images/rohit-sharma.png",
+      "country": "India",
+      "countryFlag": "🇮🇳",
+      "playerCategory": "batsman",
+      "playingStyle": {
+        "batting": "Right-Hand Bat",
+        "bowling": "Right-Arm Off Break"
+      },
+      "price": 1500000,
+      "currency": "USD",
+      "extraInformation": {
+        "role": "Opening batsman",
+        "strength": "Timing, big hundreds, strong starts",
+        "experience": "India captain"
+      }
+    },
+    {
+      "id": 10,
+      "playerName": "Trent Boult",
+      "image": "/images/trent-boult.png",
+      "country": "New Zealand",
+      "countryFlag": "🇳🇿",
+      "playerCategory": "bowler",
+      "playingStyle": {
+        "batting": "Right-Hand Bat",
+        "bowling": "Left-Arm Fast"
+      },
+      "price": 1300000,
+      "currency": "USD",
+      "extraInformation": {
+        "role": "Fast bowler",
+        "strength": "Swing with new ball",
+        "experience": "Powerplay strike bowler"
+      }
+    },
+    {
+      "id": 11,
+      "playerName": "Kane Williamson",
+      "image": "/images/kane-williamson.png",
+      "country": "New Zealand",
+      "countryFlag": "🇳🇿",
+      "playerCategory": "batsman",
+      "playingStyle": {
+        "batting": "Right-Hand Bat",
+        "bowling": "Right-Arm Off Break"
+      },
+      "price": 1400000,
+      "currency": "USD",
+      "extraInformation": {
+        "role": "Top-order batsman",
+        "strength": "Technique, calm leadership, consistency",
+        "experience": "New Zealand captain and anchor"
+      }
+    },
+    {
+      "id": 12,
+      "playerName": "Moeen Ali",
+      "image": "/images/moeen-ali.png",
+      "country": "England",
+      "countryFlag": "🏴",
+      "playerCategory": "all-rounder",
+      "playingStyle": {
+        "batting": "Left-Hand Bat",
+        "bowling": "Right-Arm Off Break"
+      },
+      "price": 1100000,
+      "currency": "USD",
+      "extraInformation": {
+        "role": "Spin all-rounder",
+        "strength": "Useful middle-order batting, off-spin",
+        "experience": "Versatile white-ball cricketer"
+      }
+    }
+  ]
+}
